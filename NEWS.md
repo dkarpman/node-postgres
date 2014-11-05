@@ -4,6 +4,28 @@ For richer information consult the commit log on github with referenced pull req
 
 We do not include break-fix version release in this file.
 
+### v3.6.0
+- Include support for (parsing JSONB)[https://github.com/brianc/node-pg-types/pull/13] (supported in postgres 9.4)
+
+### v3.5.0
+- Include support for parsing boolean arrays
+
+### v3.4.0
+- Include port as connection parameter to [unix sockets](https://github.com/brianc/node-postgres/pull/604)
+- Better support for odd [date parsing](https://github.com/brianc/node-pg-types/pull/8)
+
+### v3.2.0
+
+- Add support for parsing [date arrays](https://github.com/brianc/node-pg-types/pull/3)
+- Expose array parsers on [pg.types](https://github.com/brianc/node-pg-types/pull/2)
+- Allow [pool](https://github.com/brianc/node-postgres/pull/591) to be configured
+
+
+### v3.1.0
+
+- Add [count of the number of times a client has been checked out from the pool](https://github.com/brianc/node-postgres/pull/556)
+- Emit `end` from `pg` object [when a pool is drained](https://github.com/brianc/node-postgres/pull/571)
+
 ### v3.0.0
 
 #### Breaking changes
